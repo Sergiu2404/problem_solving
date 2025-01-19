@@ -1,0 +1,3 @@
+﻿  MostWater.cpp
+C:\Algorithms\leetcode_problems\ContainerMostWater\cpp\MostWater\MostWater\MostWater.cpp(12,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  MostWater.vcxproj -> C:\Algorithms\leetcode_problems\ContainerMostWater\cpp\MostWater\x64\Debug\MostWater.exe
