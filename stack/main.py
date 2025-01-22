@@ -5,6 +5,9 @@
 # -Open brackets are closed in the correct order.
 # -Every close bracket has a corresponding open bracket of the same type.
 # Return true if s is a valid string, and false otherwise.
+from typing import List
+
+
 def isValid(s: str) -> bool:
     stack = []
 
@@ -63,3 +66,73 @@ class MinStack:
 
     def getMin(self) -> int:
         return self._minStack[-1]
+
+
+# EVALUATE REVERSE POLISH NOTATION
+#
+# You are given an array of strings tokens that represents a valid arithmetic expression in Reverse Polish Notation.
+# Return the integer that represents the evaluation of the expression.
+# -The operands may be integers or the results of other operations.
+# -The operators include '+', '-', '*', and '/'.
+# -Assume that division between integers always truncates toward zero.
+# EX:
+# Input: tokens = ["1", "2", "+", "3", "*", "4", "-"]
+# Output: 5
+# Explanation: ((1 + 2) * 3) - 4 = 5
+def evalRevPolishNotation(tokens: List[str]) -> int:
+    stack = []
+
+    for token in tokens:
+        if token in "+-*/":
+            b = stack.pop()
+            a = stack.pop()
+
+            if token == '+':
+                stack.append(a + b)
+            elif token == '-':
+                stack.append(a - b)
+            elif token == '*':
+                stack.append(a * b)
+            elif token == '/':
+                #truncation towards zero
+                stack.append(int(a / b))
+        else:
+            stack.append(int(token))
+
+    return stack[0]
+
+print(evalRevPolishNotation(["1","2","+","3","*","4","-"]))
+print(evalRevPolishNotation(["10","6","9","3","+","-11","*","/","*","17","+","5","+"]))
+print(evalRevPolishNotation(["0","3","/"]))
+
+
+#GENEREATE PARANTHESES
+# You are given an integer n. Return all well-formed parentheses strings that you can generate with
+# n pairs of parentheses.
+# Ex:
+# Input: n = 3
+# Output: ["((()))","(()())","(())()","()(())","()()()"]
+def generateParenthesis(n: int) -> List[str]:
+    # add open par if open < n
+    # add closing par if closed < open
+    # valid if open == closed == n
+    stack = []
+    solution = []
+
+    def backtrack(open, closed):
+        if open == closed == n:
+            solution.append("".join(stack))
+            return
+        if open < n:
+            stack.append('(')
+            backtrack(open + 1, closed)
+            stack.pop()
+        if closed < open:
+            stack.append(')')
+            backtrack(open, closed + 1)
+            stack.pop()
+
+    backtrack(0, 0)
+    return solution
+
+print(generateParenthesis(3))
