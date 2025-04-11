@@ -1,0 +1,7 @@
+﻿  main.cpp
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  permutation_find_first_asc_bin_search.cpp
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\permutation_find_first_asc_bin_search.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\permutation_find_first_asc_bin_search.cpp(8,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  2_pointers_cpp.vcxproj -> E:\algorithms\2_pointers\cpp\2_pointers_cpp\x64\Debug\2_pointers_cpp.exe
