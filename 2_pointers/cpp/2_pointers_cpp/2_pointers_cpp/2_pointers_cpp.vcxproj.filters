@@ -18,12 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="permutation_find_first_asc_bin_search.cpp">
+    <ClCompile Include="has_pair_sum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rem_duplicates.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rem_duplicates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="swap_string.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="permutation_find_first_asc_bin_search.h">
+    <ClInclude Include="has_pair_sum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="swap_string.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -128,10 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="permutation_find_first_asc_bin_search.cpp" />
+    <ClCompile Include="has_pair_sum.cpp" />
+    <ClCompile Include="rem_duplicates.cpp" />
+    <ClCompile Include="rem_duplicates.h" />
+    <ClCompile Include="swap_string.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="permutation_find_first_asc_bin_search.h" />
+    <ClInclude Include="has_pair_sum.h" />
+    <ClInclude Include="swap_string.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

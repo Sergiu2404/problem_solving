@@ -1,7 +1,16 @@
 ﻿  main.cpp
 E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\main.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  permutation_find_first_asc_bin_search.cpp
-E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\permutation_find_first_asc_bin_search.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\permutation_find_first_asc_bin_search.cpp(8,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\main.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\main.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  has_pair_sum.cpp
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\has_pair_sum.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\has_pair_sum.cpp(8,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  rem_duplicates.cpp
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\rem_duplicates.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  rem_duplicates.h
+  swap_string.cpp
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\swap_string.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+E:\algorithms\2_pointers\cpp\2_pointers_cpp\2_pointers_cpp\swap_string.cpp(5,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   Generating Code...
+x64\Debug\rem_duplicates.obj : warning LNK4042: object specified more than once; extras ignored
   2_pointers_cpp.vcxproj -> E:\algorithms\2_pointers\cpp\2_pointers_cpp\x64\Debug\2_pointers_cpp.exe
